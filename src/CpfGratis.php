@@ -1,6 +1,6 @@
 <?php
 
-namespace JansenFelipe\CpfGratis;
+namespace AndersonAragao\CpfGratis;
 
 use Exception;
 use Goutte\Client;
