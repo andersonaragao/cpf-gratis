@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "AndersonChaves\\CpfGratis\\": "src/"
+            "AndersonAragao\\CpfGratis\\": "src/"
         }
     },
     "require-dev": {
