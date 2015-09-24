@@ -111,7 +111,7 @@ class CpfGratis {
                 'digito_verificador' => str_replace('Digito Verificador: ', '', $clConteudoDados->eq(5)->filter('b')->html())
             ));
         } catch (Exception $e) {
-            throw new Exception('Aconteceu um erro ao fazer a consulta. Envie os dados novamente.');
+             return ['error' => 'Aconteceu um erro ao fazer a consulta. Envie os dados novamente.'];
         }
     }
 
